@@ -1,5 +1,5 @@
-FROM mongo:3.4
-MAINTAINER Artem Kurbatov <mail@tenorok.ru>
+FROM mongo:4.0.2
+LABEL maintainer="Artem Kurbatov <mail@tenorok.ru>"
 
 RUN apt-get update && \
     apt-get install -y cron && \
