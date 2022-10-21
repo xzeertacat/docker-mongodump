@@ -1,4 +1,4 @@
-FROM mongo:4.0.2
+FROM mongo:6
 LABEL maintainer="Artem Kurbatov <mail@tenorok.ru>"
 
 RUN apt-get update && \
